@@ -1,0 +1,726 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px #000;
+    width: 100%;
+    gap: 1rem;
+    border-bottom: 1px solid#ff0000;
+}
+
+.logo {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.pukimak {
+    background-image: url(premium_photo-1661604346220-5208d18cb34e.avif);
+    color: rgb(0, 255, 128);
+    padding: 50px;
+    width: 100%;
+    margin-bottom: 80px;
+    background-position: -500px ;
+    background-size: auto;
+    height: 300px;
+}
+
+.kontolodon {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 5px;
+    margin: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.kontolodon h2 {
+    color: brown;
+    font-weight: 900;
+    font-style: initial;
+}
+
+.biji-peler {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.peler {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+    margin-top: 40px;
+}
+
+.biji {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+    margin-top: 40px;
+}
+
+.lodon {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+    margin-top: 40px;
+}
+
+.lapobango {
+    background-color: rgb(211, 208, 208);
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+}
+
+.lapobango h1 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    font-style: italic;
+}
+
+.kontol {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.kontol h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+.pepek {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.pepek h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+.kontol-basah {
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.kontol-basah h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+footer {
+    background-color: rgb(0, 153, 255);
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+
+.pepek-tebelah {
+    background-color: rgb(244, 240, 240);
+    padding: 40px;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 0 2px 5px;
+}
+
+.pepek-tebelah h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+}
+
+.pepek-tebelah h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: blue;
+}
+
+.pukimai-basah {
+    background-color: #e8dddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.puki-mamak-kudeng {
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.puki-mamak-kudeng h3 {
+    font-weight: 900;
+    font-style: italic;
+    font-language-override: normal;
+}
+
+.laso {
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.laso h3 {
+    font-weight: 900;
+    font-style: italic;
+    font-language-override: normal;
+}
+
+.telaso {
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.biji-onta {
+    background-color: #efe7e7;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+}
+
+.barudak {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.barudak h4 {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: rgb(3, 137, 254);
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.kimay {
+    font: 100;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.kimay h3 {
+    color: red;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.biji-kuda {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.biji-leper {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.kontol-patah {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.kontol-onta {
+    background-color: #efe7e7;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+}
+
+.kontol-onta h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+}
+
+.bahlil-pukimai {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.bahlil-anjing {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.bahlil-hitam {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.kimaylee {
+    padding: 40px;
+    background-color: whitesmoke;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+}
+
+.kimaylee h1 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.wenzz {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.wenzz h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+.analisis {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.analisis h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+.konsul {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.konsul h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: initial;
+    font-variant: var(#fff);
+}
+
+.biji-lepe {
+    padding: 40px;
+    margin: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px;
+    border-radius: 10px;
+}
+
+.biji-lepe h1 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.sejarah {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.kontol-bapak-kudeng {
+    padding: 50px;
+    margin: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px;
+    border-radius: 10px;
+    margin-top: 70px;
+    border: #ff0000;
+}
+
+.kolai {
+    padding: 20px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.Aturan {
+    padding: 20px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #efe7e7;
+    box-shadow: 0 2px 5px #000;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.kontol-crot {
+    padding: 20px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #efe7e7;
+    box-shadow: 0 2px 5px #000;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.bahlil-black {
+    padding: 20px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #efe7e7;
+    box-shadow: 0 2px 5px #000;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.lodon-gp {
+    padding: 20px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #efe7e7;
+    box-shadow: 0 2px 5px #000;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.kileng {
+    padding: 20px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 20px;
+    color: #efe7e7;
+    box-shadow: 0 2px 5px #000;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.baca {
+    padding: 50px;
+    margin: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.btn {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.tombol {
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 2px 5px #000;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: #ff0000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* --- Tambahkan di akhir file pepek.css Anda --- */
+
+/* Atur ulang header agar tombol dan logo dapat diatur posisinya */
+header {
+    flex-wrap: wrap; 
+}
+
+/* Gaya untuk tombol hamburger */
+.menu-toggle {
+    display: flex; /* Selalu ditampilkan */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto; /* Dorong ke kanan, di sebelah logo */
+    order: 2; 
+}
+
+.menu-toggle .bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.3s linear;
+}
+
+/* --- CSS Hamburger Menu & Mobile Navigation (DIREVISI) --- */
+
+/* Atur Header untuk Flexbox yang benar */
+header {
+    /* Pertahankan gaya header yang sudah ada */
+    display: flex;
+    flex-wrap: wrap; /* Izinkan elemen membungkus di bawah */
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px #000;
+    width: 100%;
+    gap: 1rem;
+    border-bottom: 1px solid #ff0000;
+}
+
+/* 1. Gaya untuk Tombol Hamburger */
+.menu-toggle {
+    display: flex; /* Selalu ditampilkan (sesuai permintaan tanpa media query) */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto; 
+    z-index: 100; /* Pastikan tombol di atas menu */
+}
+
+.menu-toggle .bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(30, 0, 255);
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out; /* Transisi untuk animasi saat diklik */
+}
+
+/* 2. Gaya untuk Navigasi (Menu Konten) */
+nav {
+    /* Nav akan mengambil seluruh lebar di bawah header */
+    width: 100%;
+    order: 3; 
+}
+
+#nav-list {
+    /* Ubah tata letak menjadi kolom vertikal */
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+    /* Gunakan max-height untuk transisi yang lebih baik */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out; /* Transisi yang lebih halus */
+    
+    background-color: rgb(0, 140, 255); 
+    padding: 0; /* Hapus padding yang mungkin mengganggu tinggi */
+    margin: 0;
+}
+
+/* 3. Gaya Item Menu */
+#nav-list li {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Garis pemisah lebih halus */
+}
+
+#nav-list li:last-child {
+    border-bottom: none;
+}
+
+#nav-list li a {
+    display: block; /* Membuat area klik penuh */
+    padding: 1rem; /* Tambahkan padding yang lebih besar untuk area sentuh/klik */
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Efek hover untuk item menu */
+#nav-list li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Latar belakang saat hover */
+    color: #000; /* Tetap pertahankan warna hover asli */
+}
+
+
+/* 4. Tampilkan Menu Saat 'active' */
+#nav-list.active {
+    /* Atur max-height ke nilai yang sangat besar agar semua konten terlihat */
+    max-height: 500px; /* Nilai yang cukup besar untuk menampung semua item menu */
+    padding-bottom: 1rem;
+}
+
+/* 5. Animasi Tombol (Opsional: Membuat X saat aktif) */
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+.bodobala {
+    padding: 10px;
+    border-radius: 30px;
+    width: 160px;
+    border: #ff0000;
+    box-shadow: 0 3px 5px;
+    height: auto;
+    background-color: rgb(18, 101, 169);
+}
+
+.bdbl {
+    background-color: rgb(0, 21, 255);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    width: 100px;
+    border: none;
+    box-shadow: 0 2px 5px;
+}
+
+.bdbl a {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.kmy {
+    background-color: rgba(8, 251, 214, 0.783);
+    border-radius: 10px;
+    color: #000;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Bungee Spice", sans-serif;
+    color: red;
+    padding: 20px;
+}
